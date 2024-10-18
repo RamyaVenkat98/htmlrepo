@@ -1,0 +1,55 @@
+navbar{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: blue;
+    color:white
+    }
+    li{
+        list-style: none;
+    }
+    .empty
+    {
+        height:150px;
+        width:100px;
+    }
+    .mainDiv1{
+        background-color: blue;
+        height: 100px;
+        width: 100px;
+    }
+    .mainDiv1:hover{
+        background-color: bisque;
+        height: 100px;
+        width: 100px;
+        backdrop-filter: blur(10px);
+
+    }
+    .mainDiv2{
+        background-color: rgb(43, 165, 226);
+        height:100px;
+        width:100px;
+    }
+    .mainDiv2:hover{
+        background-color: rgb(240, 255, 244);
+        height:150px;
+        width:150px;
+    }
+    .mainDiv3{
+        background-color: rgb(165, 42, 144);
+        height:100px;
+        width:100px;
+    }
+    .mainDiv3:hover{
+        background-color: brown;
+        height:100px;
+        weight:100px;
+    }
+    box-shadow:5px 5px 5px 5px rgb(169, 47, 149);
+}
